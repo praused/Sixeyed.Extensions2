@@ -3,8 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{2CB0B936-560A-4760-BCB5-C23AA3402169}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9B9A25D2-BC91-403B-9D16-608F91560C00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sixeyed.Extensions.Advanced", "Sixeyed.Extensions.Advanced\Sixeyed.Extensions.Advanced.csproj", "{1425204D-4DEB-417C-AAB2-512AF30FFAAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sixeyed.Extensions.Advanced.Tests", "Sixeyed.Extensions.Advanced.Tests\Sixeyed.Extensions.Advanced.Tests.csproj", "{9660D023-DEAC-458F-9828-7FECBB940FDA}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1425204D-4DEB-417C-AAB2-512AF30FFAAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1425204D-4DEB-417C-AAB2-512AF30FFAAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1425204D-4DEB-417C-AAB2-512AF30FFAAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1425204D-4DEB-417C-AAB2-512AF30FFAAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9660D023-DEAC-458F-9828-7FECBB940FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9660D023-DEAC-458F-9828-7FECBB940FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9660D023-DEAC-458F-9828-7FECBB940FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9660D023-DEAC-458F-9828-7FECBB940FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9660D023-DEAC-458F-9828-7FECBB940FDA} = {9B9A25D2-BC91-403B-9D16-608F91560C00}
 	EndGlobalSection
 EndGlobal
