@@ -42,6 +42,8 @@
   <ItemGroup>
     <Compile Include="Demo1\Instrumentation.cs" />
     <Compile Include="Demo1\InstrumentationExtensions.cs" />
+    <Compile Include="Demo2\InternalClasses.cs" />
+    <Compile Include="Demo2\InternalClassExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

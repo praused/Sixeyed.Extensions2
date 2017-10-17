@@ -53,6 +53,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Demo1\InstrumentationTests.cs" />
+    <Compile Include="Demo2\InternalClassTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -61,6 +62,7 @@
       <Name>Sixeyed.Extensions.Advanced</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
