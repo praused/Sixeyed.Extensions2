@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="Demo1\InstrumentationTests.cs" />
     <Compile Include="Demo2\InternalClassTests.cs" />
+    <Compile Include="Demo3\DateTimeExtensionsTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
