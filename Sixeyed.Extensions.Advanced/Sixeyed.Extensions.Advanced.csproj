@@ -45,6 +45,8 @@
     <Compile Include="Demo2\InternalClasses.cs" />
     <Compile Include="Demo2\InternalClassExtensions.cs" />
     <Compile Include="Demo3\DateTimeExtensions.cs" />
+    <Compile Include="Demo5\DecimalExtensions.cs" />
+    <Compile Include="Demo5\DecimalExtensions2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
